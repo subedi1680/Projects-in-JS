@@ -1,0 +1,32 @@
+body{
+    font-family: cursive;
+    background-color:black;
+}
+#myh1{
+    font-size: 5em;
+    text-align: center;
+    color: chartreuse;
+}
+#clabel{
+    display: block;
+    text-align: center;
+    font-size: 7em;
+    border: solid rgb(255, 255, 255);
+    color: white;
+}
+#bcontainer{
+    text-align: center;
+}
+.buttons{
+    margin: 10px 30px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color:white;
+    background-color: blue;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: rgb(30, 30, 205);
+    cursor: pointer;
+}
